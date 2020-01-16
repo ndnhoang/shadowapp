@@ -1,0 +1,1 @@
+export const AR_ANCHOR_FOUND = 'AR_ANCHOR_FOUND';

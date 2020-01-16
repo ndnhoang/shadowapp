@@ -1,0 +1,69 @@
+{
+    "uri": "Car_cryptoCarz.gltf",
+    "mimeType": "model/gltf+json",
+    "validatorVersion": "2.0.0-dev.2.6",
+    "validatedAt": "2018-11-09T07:34:28.423393Z",
+    "issues": {
+        "numErrors": 2,
+        "numWarnings": 0,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+            {
+                "code": "ANIMATION_SAMPLER_INPUT_ACCESSOR_TOO_FEW_ELEMENTS",
+                "message": "Animation sampler output accessor with 'CUBICSPLINE' interpolation must have at least 2 elements. Got 1.",
+                "severity": 0,
+                "pointer": "/animations/0/samplers/0/input"
+            },
+            {
+                "code": "ANIMATION_SAMPLER_INPUT_ACCESSOR_TOO_FEW_ELEMENTS",
+                "message": "Animation sampler output accessor with 'CUBICSPLINE' interpolation must have at least 2 elements. Got 1.",
+                "severity": 0,
+                "pointer": "/animations/0/samplers/2/input"
+            },
+            {
+                "code": "NODE_EMPTY",
+                "message": "Empty node encountered.",
+                "severity": 2,
+                "pointer": "/nodes/0"
+            },
+            {
+                "code": "UNUSED_OBJECT",
+                "message": "This object may be unused.",
+                "severity": 2,
+                "pointer": "/textures/13"
+            },
+            {
+                "code": "UNUSED_OBJECT",
+                "message": "This object may be unused.",
+                "severity": 2,
+                "pointer": "/textures/14"
+            },
+            {
+                "code": "UNUSED_OBJECT",
+                "message": "This object may be unused.",
+                "severity": 2,
+                "pointer": "/textures/15"
+            },
+            {
+                "code": "UNUSED_OBJECT",
+                "message": "This object may be unused.",
+                "severity": 2,
+                "pointer": "/textures/16"
+            }
+        ],
+        "truncated": false
+    },
+    "info": {
+        "version": "2.0",
+        "generator": "Khronos Blender glTF 2.0 exporter",
+        "hasAnimations": true,
+        "hasMaterials": true,
+        "hasMorphTargets": false,
+        "hasSkins": false,
+        "hasTextures": true,
+        "hasDefaultScene": true,
+        "primitivesCount": 12,
+        "maxAttributesUsed": 4
+    }
+}
